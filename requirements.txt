@@ -46,6 +46,7 @@ h5py==3.11.0
 httplib2==0.22.0
 humanfriendly==10.0
 idna==3.7
+importlib_metadata==8.5.0
 ipykernel==6.29.4
 ipython==8.26.0
 jedi==0.19.1
@@ -141,4 +142,6 @@ whitenoise==6.7.0
 wrapt==1.16.0
 wsproto==1.2.0
 youtube-transcript-api==0.6.2
-importlib-metadata
+zipp==3.20.2
+pathlib>=3.10
+importlib_metadata>=3.10

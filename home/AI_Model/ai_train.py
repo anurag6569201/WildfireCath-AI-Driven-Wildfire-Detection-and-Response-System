@@ -1,6 +1,9 @@
 import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
+import tensorflow as tf
+tf.config.threading.set_intra_op_parallelism_threads(1)
+tf.config.threading.set_inter_op_parallelism_threads(1)
 
 # Load the pre-trained model
 model = load_model('home/AI_Model/fire_detection_model.h5')
